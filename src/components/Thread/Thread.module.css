@@ -1,0 +1,23 @@
+.Thread   {
+  display: flex;
+  align-items: center;
+  width: 70%;
+  text-decoration: none;
+  /* justify-content: space-evenly; */
+}
+
+.Thread:hover .Title,
+.Thread:active .Title,
+.Thread:focus .Title {
+  font-weight: 700;
+  color: rgb(166, 118, 196);
+}
+
+.Img {
+  display: inline-block;
+  margin: 1em;
+}
+
+.Title {
+  font-weight: 600;
+}
