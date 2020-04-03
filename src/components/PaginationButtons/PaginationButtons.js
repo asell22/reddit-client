@@ -10,6 +10,7 @@ class paginationButtons extends Component {
         this.props.setBeforeChild(data.data.before)
         this.props.setAfterChild(data.data.after)
       })
+      .catch(err => console.log(err));
   }
   onBeforeClickHandler = () => {
     const count = this.afterClicked * 25;

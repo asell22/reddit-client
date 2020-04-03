@@ -8,7 +8,7 @@ const thread = (props) => {
 
   return (
     <li>
-      <a href={url} target="_blank" className={styles['Thread']}>
+      <a href={url} target="_blank" rel="noopener noreferrer" className={styles['Thread']}>
         <span className={styles['Img']}>
           <img width="40" height="40" src={imgSrc} alt={title} /> 
         </span>

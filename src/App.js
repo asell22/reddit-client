@@ -15,6 +15,7 @@ function App() {
         setBeforeChild(data.data.before)
         setAfterChild(data.data.after)
       })
+      .catch(err => console.log(err));
   }, [])
 
   
