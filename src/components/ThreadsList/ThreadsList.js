@@ -18,6 +18,7 @@ const threadsList = (props) => {
           const thumbnail = thread.data.preview ? format(thread.data.preview.images[0].resolutions[0].url) : null;
           return (
           <Thread  
+            key={thread.data.id}
             thumbnail={thumbnail} 
             title={format(thread.data.title)}
             url={thread.data.url} />

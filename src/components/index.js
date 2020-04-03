@@ -1,2 +1,3 @@
 import ThreadsList from './ThreadsList/ThreadsList';
-export { ThreadsList }
+import PaginationButtons from './PaginationButtons/PaginationButtons';
+export { ThreadsList, PaginationButtons }
